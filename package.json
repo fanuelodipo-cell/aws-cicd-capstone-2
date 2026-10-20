@@ -1,0 +1,24 @@
+{
+  "name": "aws-cicd-capstone-2",
+  "version": "1.0.0",
+  "description": "End-to-End CI/CD Pipeline on AWS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "aws",
+    "devops",
+    "cicd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}
